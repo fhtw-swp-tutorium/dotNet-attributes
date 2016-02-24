@@ -1,6 +1,6 @@
 using System;
 
-namespace StudentsAttributes
+namespace DotNetAttributes
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class SubjectAttribute : Attribute

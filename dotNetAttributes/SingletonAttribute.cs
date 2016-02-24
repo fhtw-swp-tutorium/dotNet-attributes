@@ -1,10 +1,7 @@
 ﻿using System;
 
-namespace StudentsAttributes
+namespace DotNetAttributes
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class SingletonAttribute : Attribute
-    {
-        
-    }
+    public class SingletonAttribute : Attribute { }
 }
