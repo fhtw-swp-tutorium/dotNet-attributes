@@ -2,17 +2,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>SwpAttributes</id>
-        <version>1.0.12</version>
+        <version>1.1</version>
         <authors>David Leitner</authors>
-        <licenseUrl>https://github.com/duffleit/AutomatedPatternExerciseTester/wiki/StudentsAttributes-Nuget-Package</licenseUrl>
+        <projectUrl>https://github.com/fhtw-swp-tutorium/documentation/wiki/2.3-Attribute-(.Net)</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>This a package which is used by students of the FH Technikum Vienna to solve GOF pattern exercices.</description>
+        <description>This package is used by students of the FH Technikum Vienna to solve GOF pattern exercices.</description>
         <summary />
-        <releaseNotes>- changed Attribute Location</releaseNotes>
+        <releaseNotes>- bugfixes</releaseNotes>
         <copyright />
         <language />
     </metadata>
     <files>
-        <file src="dotNetAttributes.dll" target="content\dotNetAttributes.dll" />
+        <file src="dotNetAttributes\bin\Debug\dotNetAttributes.dll" target="lib\dotNetAttributes.dll" />
     </files>
 </package>

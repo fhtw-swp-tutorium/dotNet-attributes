@@ -1,0 +1,4 @@
+AssemblyInfo Version anpassen
+AssemblyVersion in nuspec anpassen
+Publishen
+Alten Versionen ausblenden
