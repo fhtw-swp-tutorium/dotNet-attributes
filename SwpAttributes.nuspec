@@ -2,13 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>SwpAttributes</id>
-        <version>1.4</version>
+        <version>1.5</version>
         <authors>David Leitner</authors>
         <projectUrl>https://github.com/fhtw-swp-tutorium/documentation/wiki/2.3-Attribute-(.Net)</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This package is used by students of the FH Technikum Vienna to solve GOF pattern exercices.</description>
         <summary />
-        <releaseNotes>-extracte IFactory</releaseNotes>
+        <releaseNotes>-extracte IFactory
+-bugfixes</releaseNotes>
         <copyright />
         <language />
     </metadata>
