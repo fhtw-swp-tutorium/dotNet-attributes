@@ -1,5 +1,5 @@
 AssemblyInfo Version anpassen
-AssemblyVersion in nuspec anpassen
+AssemblyVersion in nuspec anpassen, und changes
 Publishen
 Metadaten überschreiben
 Git commit 
