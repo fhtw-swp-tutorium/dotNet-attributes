@@ -1,6 +1,6 @@
 using System;
 
-namespace DotNetAttributes
+namespace DotNetAttributes.Observer
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class SubjectAttribute : Attribute

@@ -39,10 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\InvokeCommandAttribute.cs" />
+    <Compile Include="Observer\NotifyObserversAttribute.cs" />
+    <Compile Include="Observer\RegisterObserverAttribute.cs" />
+    <Compile Include="Observer\UnregisterObserverAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingletonAttribute.cs" />
-    <Compile Include="CommandAttribute.cs" />
-    <Compile Include="SubjectAttribute.cs" />
+    <Compile Include="Singleton\SingletonAttribute.cs" />
+    <Compile Include="Command\InvokerAttribute.cs" />
+    <Compile Include="Observer\SubjectAttribute.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

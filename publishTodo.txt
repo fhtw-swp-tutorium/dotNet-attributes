@@ -1,4 +1,6 @@
 AssemblyInfo Version anpassen
 AssemblyVersion in nuspec anpassen
 Publishen
+Metadaten überschreiben
+Git commit 
 Alten Versionen ausblenden

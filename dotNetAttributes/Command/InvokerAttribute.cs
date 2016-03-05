@@ -1,6 +1,6 @@
 using System;
 
-namespace DotNetAttributes
+namespace DotNetAttributes.Command
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class InvokerAttribute : Attribute
@@ -17,7 +17,4 @@ namespace DotNetAttributes
         public Type Factory { get; private set; }
 
     }
-
-    [AttributeUsage(AttributeTargets.Method)]
-    public class InvokeCommandAttribute : Attribute { }
 }
