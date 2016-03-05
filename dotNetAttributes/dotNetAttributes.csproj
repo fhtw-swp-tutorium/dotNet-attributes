@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IFactoryAttribute.cs" />
     <Compile Include="Command\InvokeCommandAttribute.cs" />
     <Compile Include="Observer\NotifyObserversAttribute.cs" />
     <Compile Include="Observer\RegisterObserverAttribute.cs" />

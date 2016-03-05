@@ -3,7 +3,7 @@ using System;
 namespace DotNetAttributes.Command
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class InvokerAttribute : Attribute
+    public class InvokerAttribute : Attribute, IFactoryAttribute
     {
         public InvokerAttribute()
         {
